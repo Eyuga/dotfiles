@@ -43,18 +43,13 @@ vim.api.nvim_set_keymap("n", "<S-Up>", ":m .-2<CR>", { noremap = true })
 -- Move line down
 vim.api.nvim_set_keymap("n", "<S-Down>", ":m .+1<CR>", { noremap = true })
 
-
--- Toggle comments with leader+c
-keymap.set("n", "<leader>c", "<Plug>CommentaryLine")
-keymap.set("v", "<leader>c", "<Plug>Commentary")
-
 -- window management
 keymap.set("n", "<leader>sv", "<C-w>v") -- split window vertically
 keymap.set("n", "<leader>sh", "<C-w>s") -- split window horizontally
 keymap.set("n", "<leader>se", "<C-w>=") -- make split windows equal width & height
 keymap.set("n", "<leader>sx", ":close<CR>") -- close current split window
 
-keymap.set("n", "<leader>nt", ":tabnew<CR>") -- open new tab
+keymap.set("n", "<leader>tn", ":tabnew<CR>") -- open new tab
 keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close current tab
 keymap.set("n", "<leader>tn", ":tabn<CR>") --  go to next tab
 keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
