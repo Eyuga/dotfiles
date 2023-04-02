@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["lspkind-nvim"] = {
+    loaded = true,
+    path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
+    url = "https://github.com/onsails/lspkind-nvim"
+  },
   ["lspkind.nvim"] = {
     loaded = true,
     path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
@@ -245,6 +250,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
     url = "https://github.com/christoomey/vim-tmux-navigator"
+  },
+  ["vim-vsnip"] = {
+    loaded = true,
+    path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/vim-vsnip",
+    url = "https://github.com/hrsh7th/vim-vsnip"
   }
 }
 

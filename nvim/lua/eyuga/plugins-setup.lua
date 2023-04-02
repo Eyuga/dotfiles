@@ -109,6 +109,18 @@ return packer.startup(function(use)
 	-- git integration
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 	use("tpope/vim-fugitive")
+
+	-- init.lua
+
+	-- ...
+
+	-- Install required plugins
+	use({
+		"hrsh7th/vim-vsnip",
+		"onsails/lspkind-nvim",
+		"rafamadriz/friendly-snippets",
+	})
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
