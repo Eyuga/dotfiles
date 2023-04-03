@@ -45,6 +45,7 @@ return packer.startup(function(use)
 	use("tpope/vim-surround") -- add, delete, change surroundings (it's awesome)
 	use("inkarkat/vim-ReplaceWithRegister") -- replace with register contents using motion (gr + motion)
 
+	use("akinsho/toggleterm.nvim") -- toogle term
 	-- commenting with gc
 	use("numToStr/Comment.nvim")
 
@@ -56,6 +57,12 @@ return packer.startup(function(use)
 
 	-- statusline
 	use("nvim-lualine/lualine.nvim")
+
+	--bufferline
+	use("akinsho/bufferline.nvim")
+
+	--colorizer
+	use("norcalli/nvim-colorizer.lua")
 
 	-- fuzzy finding w/ telescope
 	use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" }) -- dependency for better sorting performance
@@ -109,7 +116,13 @@ return packer.startup(function(use)
 	-- git integration
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 	use("tpope/vim-fugitive")
-
+	use({
+		"kdheepak/lazygit.nvim",
+		cmd = "LazyGit",
+		config = function()
+			require("lazygit").setup({})
+		end,
+	})
 	-- init.lua
 
 	-- ...
