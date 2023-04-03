@@ -3,10 +3,13 @@ live_config_reload: true
 window:
   opacity: 0.85
   padding:
-    x: 18
-    y: 16
+    x: 2
+    y: 2
   dynamic_padding: false
   decorations: buttonless
+  dimensions:
+    columns: 80
+    lines: 24
 
 font:
   normal:
@@ -16,5 +19,3 @@ font:
 
 import:
   - ~/.config/alacritty/theme.yml
-
-
