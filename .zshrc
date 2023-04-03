@@ -17,7 +17,7 @@ eval "$(starship init zsh)"
 
 # To enable fuzzy search for files and directories
 export FZF_DEFAULT_COMMAND='fd --type f --type d --hidden --follow --exclude .git'
-
+export PATH=/Users/eyuga/.local/bin:$PATH
 # Keybindings for FZF (Zsh)
 source  /opt/homebrew/Cellar/fzf/0.38.0/shell/key-bindings.zsh
 
@@ -114,4 +114,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+
+
+PATH="/Users/eyuga/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/Users/eyuga/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/Users/eyuga/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/Users/eyuga/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/Users/eyuga/perl5"; export PERL_MM_OPT;
 
