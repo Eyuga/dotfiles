@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["bracey.vim"] = {
+    loaded = true,
+    path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/bracey.vim",
+    url = "https://github.com/turbio/bracey.vim"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
@@ -109,10 +114,20 @@ _G.packer_plugins = {
     path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["coc.nvim"] = {
+    loaded = true,
+    path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/coc.nvim",
+    url = "https://github.com/neoclide/coc.nvim"
+  },
   ["dracula.nvim"] = {
     loaded = true,
     path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/dracula.nvim",
     url = "https://github.com/Mofiqul/dracula.nvim"
+  },
+  ["emmet-vim"] = {
+    loaded = true,
+    path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/emmet-vim",
+    url = "https://github.com/mattn/emmet-vim"
   },
   ["friendly-snippets"] = {
     loaded = true,

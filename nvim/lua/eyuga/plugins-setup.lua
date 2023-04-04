@@ -55,6 +55,13 @@ return packer.startup(function(use)
 	-- commenting with gc
 	use("numToStr/Comment.nvim")
 
+	-- for web dev
+	use("neoclide/coc.nvim")
+	use("mattn/emmet-vim")
+	use("tpope/vim-surround")
+
+	-- live server like for web dev
+	use("turbio/bracey.vim")
 	-- file explorer
 	use("nvim-tree/nvim-tree.lua")
 
