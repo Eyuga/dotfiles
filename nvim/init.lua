@@ -25,10 +25,29 @@ vim.g.neoformat_c_mason = {
 	stdin = true,
 }
 
+-- Add C++ and CMake filetypes to Neoformat
+vim.g.neoformat_cpp = {
+	["exe"] = { "clang-format" },
+	["h"] = { "clang-format" },
+	["cpp"] = { "clang-format" },
+}
+
+vim.g.neoformat_cmake = {
+	["*"] = { "cmake-format" },
+}
+
+-- Add C filetypes to Neoformat
+vim.g.neoformat_c = {
+	["exe"] = { "clang-format" },
+	["h"] = { "clang-format" },
+	["c"] = { "clang-format" },
+	["inc"] = { "clang-format" },
+}
+
 -- Automatically format Mason C code on save
 vim.cmd([[
   augroup FormatOnSave
     autocmd!
-    autocmd BufWritePost *.c Neoformat
+    autocmd BufWritePost *.cpp,*.h,*.c,*.inc  Neoformat
   augroup END
 ]])
