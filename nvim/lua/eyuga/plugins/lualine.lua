@@ -5,11 +5,11 @@ if not status then
 end
 
 -- get lualine nightfly theme
-local lualine_nightfly = require("lualine.themes.nightfly")
+local lualine_nightfly = require("lualine.themes.tokyonight")
 
 -- new colors for theme
 local new_colors = {
-	blue = "#65D1FF",
+	blue = "#B098EC ",
 	green = "#3EFFDC",
 	violet = "#FF61EF",
 	yellow = "#FFDA7B",

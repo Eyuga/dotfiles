@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["dracula.nvim"] = {
+    loaded = true,
+    path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/dracula.nvim",
+    url = "https://github.com/Mofiqul/dracula.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -168,6 +173,16 @@ _G.packer_plugins = {
     path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/neoformat",
     url = "https://github.com/sbdchd/neoformat"
   },
+  ["nightfox.nvim"] = {
+    loaded = true,
+    path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
+    url = "https://github.com/EdenEast/nightfox.nvim"
+  },
+  ["nord.nvim"] = {
+    loaded = true,
+    path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/nord.nvim",
+    url = "https://github.com/shaunsingh/nord.nvim"
+  },
   ["null-ls.nvim"] = {
     loaded = true,
     path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
@@ -220,6 +235,21 @@ _G.packer_plugins = {
     path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
+  ["onedark.nvim"] = {
+    loaded = true,
+    path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/onedark.nvim",
+    url = "https://github.com/navarasu/onedark.nvim"
+  },
+  ["onedarkpro.nvim"] = {
+    loaded = true,
+    path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/onedarkpro.nvim",
+    url = "https://github.com/olimorris/onedarkpro.nvim"
+  },
+  ["onenord.nvim"] = {
+    loaded = true,
+    path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/onenord.nvim",
+    url = "https://github.com/rmehri01/onenord.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -244,6 +274,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/Users/eyuga/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
   },
   ["typescript.nvim"] = {
     loaded = true,

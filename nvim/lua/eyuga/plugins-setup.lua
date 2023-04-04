@@ -32,7 +32,13 @@ return packer.startup(function(use)
 	use("wbthomason/packer.nvim")
 
 	use({ "catppuccin/nvim" })
-
+	use("EdenEast/nightfox.nvim")
+	use("shaunsingh/nord.nvim")
+	use("navarasu/onedark.nvim")
+	use("Mofiqul/dracula.nvim")
+	use("rmehri01/onenord.nvim")
+	use("olimorris/onedarkpro.nvim")
+	use("folke/tokyonight.nvim")
 	use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
 
 	use("bluz71/vim-nightfly-guicolors") -- preferred colorscheme
