@@ -17,3 +17,18 @@ require("eyuga.plugins.gitsigns")
 require("eyuga.plugins.toggleterm")
 require("eyuga.plugins.bufferline")
 require("eyuga.plugins.colorizer")
+
+-- Configure neoformat to use clang-format for Mason C code formatting
+vim.g.neoformat_c_mason = {
+	exe = "clang-format",
+	args = { "-assume-filename=%:p", "-style=file" },
+	stdin = true,
+}
+
+-- Automatically format Mason C code on save
+vim.cmd([[
+  augroup FormatOnSave
+    autocmd!
+    autocmd BufWritePost *.c Neoformat
+  augroup END
+]])
