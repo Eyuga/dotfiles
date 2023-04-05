@@ -257,16 +257,6 @@ lspconfig["rust_analyzer"].setup({
 	on_attach = on_attach,
 })
 
-lspconfig["sqlls"].setup({
-	capabilities = capabilities,
-	on_attach = on_attach,
-})
-
-lspconfig["sqls"].setup({
-	capabilities = capabilities,
-	on_attach = on_attach,
-})
-
 lspconfig["salt_ls"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,

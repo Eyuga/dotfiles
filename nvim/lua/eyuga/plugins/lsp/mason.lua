@@ -56,8 +56,6 @@ mason_lspconfig.setup({
 		"ruff_lsp",
 		"standardrb",
 		"rust_analyzer",
-		"sqlls",
-		"sqls",
 		"salt_ls",
 		"vtsls",
 	},

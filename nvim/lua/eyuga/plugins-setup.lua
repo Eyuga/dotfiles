@@ -56,7 +56,6 @@ return packer.startup(function(use)
 	use("numToStr/Comment.nvim")
 
 	-- for web dev
-	use("neoclide/coc.nvim")
 	use("mattn/emmet-vim")
 	use("tpope/vim-surround")
 
@@ -113,6 +112,9 @@ return packer.startup(function(use)
 	use("jose-elias-alvarez/null-ls.nvim") -- configure formatters & linters
 	use("jayp0521/mason-null-ls.nvim") -- bridges gap b/w mason & null-ls
 	use("sbdchd/neoformat")
+
+	-- copliot integration
+	use("github/copilot.vim")
 
 	-- treesitter configuration
 	use({
