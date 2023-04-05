@@ -46,6 +46,9 @@ vim.api.nvim_set_keymap("n", "<S-Down>", ":m .+1<CR>", { noremap = true })
 -- Define a keymap for opening LazyGit
 vim.api.nvim_set_keymap("n", "<leader>lg", ":LazyGit<CR>", { noremap = true })
 
+vim.api.nvim_set_keymap("n", "<leader>cd", ":Copilot disable<CR>", { noremap = true })
+vim.api.nvim_set_keymap("n", "<leader>ce", ":Copilot enable<CR>", { noremap = true })
+
 -- window management
 keymap.set("n", "<leader>sv", "<C-w>v") -- split window vertically
 keymap.set("n", "<leader>sh", "<C-w>s") -- split window horizontally
