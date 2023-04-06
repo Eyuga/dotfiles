@@ -51,3 +51,6 @@ vim.cmd([[
     autocmd BufWritePost *.cpp,*.h,*.c,*.inc  Neoformat
   augroup END
 ]])
+
+-- vim.g.python3_host_prog = "/usr/bin/python3"
+vim.g.python3_host_prog = "/opt/homebrew/bin/python3"

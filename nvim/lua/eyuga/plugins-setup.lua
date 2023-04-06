@@ -55,12 +55,14 @@ return packer.startup(function(use)
 	-- commenting with gc
 	use("numToStr/Comment.nvim")
 
-	-- for web dev
-	use("mattn/emmet-vim")
-	use("tpope/vim-surround")
+	-- python
+	use({ "neovim/python-client", run = "pip install pynvim" })
 
 	-- live server like for web dev
 	use("turbio/bracey.vim")
+	-- for web dev
+	use("mattn/emmet-vim")
+
 	-- file explorer
 	use("nvim-tree/nvim-tree.lua")
 
@@ -147,7 +149,6 @@ return packer.startup(function(use)
 	use({
 		"hrsh7th/vim-vsnip",
 		"onsails/lspkind-nvim",
-		"rafamadriz/friendly-snippets",
 	})
 
 	if packer_bootstrap then
