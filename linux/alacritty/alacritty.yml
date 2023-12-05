@@ -1,0 +1,27 @@
+live_config_reload: true
+
+window:
+  opacity: 0.85
+  padding:
+    x: 2
+    y: 2
+  dynamic_padding: false
+  dimensions:
+    columns: 80
+    lines: 24
+
+font:
+  normal:
+    family: "JetBrainsMono Nerd Font"
+    style: Regular
+  size: 8.0
+
+
+key_bindings:
+  - { key: V, mods: Control, action: Paste }
+  - { key: C, mods: Control, action: Copy }
+  - { key: C, mods: Alt, chars: "\x03"         }
+  - { key: V, mods: Alt, chars: "\x16"            }
+
+import:
+  - ~/.config/alacritty/theme.yml
